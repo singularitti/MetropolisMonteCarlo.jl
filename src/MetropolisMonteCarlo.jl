@@ -1,5 +1,17 @@
 module MetropolisMonteCarlo
 
-# Write your package code here.
+using Random: AbstractRNG
+using Thunks: Thunk
+
+struct TrialMove
+    def::Thunk
+end
+
+mutable struct Sweep
+    trialmoves::Vector{TrialMove}
+    accepted::Int
+    finished::Bool
+    rng::AbstractRNG
+end
 
 end
