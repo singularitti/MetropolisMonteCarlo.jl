@@ -3,6 +3,8 @@ uuid = "c7873b01-670a-42c3-be59-debe0b68b5fa"
 authors = ["singularitti <singularitti@outlook.com> and contributors"]
 version = "0.1.0"
 
+Thunks = "490da00b-a60c-4ded-a4cf-df7cded56bfa"
+
 [compat]
 julia = "1"
 
