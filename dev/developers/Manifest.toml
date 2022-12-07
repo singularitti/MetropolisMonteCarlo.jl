@@ -120,7 +120,8 @@ uuid = "c8ffd9c3-330d-5841-b78e-0817d7145fa1"
 version = "2.28.0+0"
 
 [[deps.MetropolisMonteCarlo]]
-git-tree-sha1 = "e0f9976a091d463a4d883fa273cc75c7e0b10eb6"
+deps = ["Random", "Thunks"]
+git-tree-sha1 = "4fe391b1efa420dd45c4ba3ae59cbc48c42edf97"
 repo-rev = "main"
 repo-url = "https://github.com/singularitti/MetropolisMonteCarlo.jl"
 uuid = "c7873b01-670a-42c3-be59-debe0b68b5fa"
@@ -194,6 +195,11 @@ version = "1.0.0"
 deps = ["ArgTools", "SHA"]
 uuid = "a4e569a6-e804-4fa4-b0f3-eef7a1d5b13e"
 version = "1.10.1"
+
+[[deps.Thunks]]
+git-tree-sha1 = "f45cd072e875b494f0363bd87df44bbc2eb5d52d"
+uuid = "490da00b-a60c-4ded-a4cf-df7cded56bfa"
+version = "0.3.2"
 
 [[deps.Tokenize]]
 git-tree-sha1 = "2b3af135d85d7e70b863540160208fa612e736b9"
