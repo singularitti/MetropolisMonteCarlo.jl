@@ -8,6 +8,7 @@ Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Thunks = "490da00b-a60c-4ded-a4cf-df7cded56bfa"
 
 [compat]
+Thunks = "0.3"
 julia = "1"
 
 [extras]
